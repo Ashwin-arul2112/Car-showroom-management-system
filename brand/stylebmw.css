@@ -1,0 +1,47 @@
+@keyframes zoom {
+
+    1% {
+      transform: scale(1.05);
+    }
+    100% {
+        transform: scale(1.05);
+    }
+  }
+
+.bgbmw {
+    background-color: black;
+}
+
+.navbar {
+    padding: 2%;
+    background-color: #00000033;
+    position: fixed;
+    display: flex;
+    width: 100%;
+    top: 0;
+    left: 0;
+  }
+  
+  .navlink {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .navlink:hover {
+    color: #fc6460;
+  }
+  
+  .navimg {
+    width: 100%;
+  }
+
+.pagebg{
+    background-color: #ffffffde;
+    border-radius: 5px;
+    margin-left: 0.5%;
+    margin-right: 0.5%;
+}
+
+.expand:hover{
+    animation: zoom 50s infinite;
+}
