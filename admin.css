@@ -1,0 +1,84 @@
+.navbar {
+  padding: 2%;
+  background-color: #00000033;
+  position: fixed;
+  display: flex;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+
+.navlink {
+  color: white;
+  text-decoration: none;
+}
+
+.navlink:hover {
+  color: #fc6460;
+}
+
+
+.tb {
+  margin-left:5%;
+  font-size: 18px;
+  padding: 15px;
+  width: 80%;
+  border: 2px solid rgb(22, 0, 0);
+  border-top: none;
+  border-left: none;
+  background: rgba(251, 251, 251, 0.24);
+  color: white;
+  outline: none;
+  border-radius: 6px;
+}
+
+.tb1 {
+  margin-left:5%;
+  font-size: 16px;
+  padding: 10px;
+  width: 60%;
+  border: 2px solid rgb(22, 0, 0);
+  border-top: none;
+  border-left: none;
+  background: rgba(251, 251, 251, 0.24);
+  color: white;
+  outline: none;
+  border-radius: 6px;
+}
+
+.formbox {
+  margin-left: 30%;
+  border-radius: 10px;
+  border: 3px solid #da0f0ffd;
+  width: 40%;
+  padding: 30px 0;
+  background: #07070777;
+  padding-top: 1%;
+}
+
+.btn {
+  border: 1px solid rgb(180, 10, 10);
+  background: rgba(20, 20, 20, 0.9);
+  font-size: 18px;
+  color: white;
+  margin-top: 20px;
+  padding: 15px 50px;
+  cursor: pointer;
+  transition: .4s;
+  &:hover {
+    background: rgba(20, 20, 20, .8);
+    padding: 10px 80px;
+  }
+}
+
+.bg1 {
+  background-color: black;
+  background-image: url("images/bg1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+input::placeholder{
+  color: white;
+}
